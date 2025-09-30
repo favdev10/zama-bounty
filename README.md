@@ -1,6 +1,6 @@
 # Hello FHEVM — Beginner-friendly README
 
-**Goal:** A step-by-step, beginner-friendly guide that helps a developer build and run a complete dApp (smart contract + frontend) using Zama’s FHE tools (fhEVM, fhevm Hardhat template, and the relayer / fhevmjs SDK). By the end you’ll be able to: compile an `FHECounter` contract, encrypt inputs in the frontend, call the contract with encrypted inputs, and run everything locally or on Sepolia. This README is written so you can copy-paste it into `README.md` in your repo.
+**Goal:** A step-by-step, beginner-friendly guide that helps a developer build and run a complete dApp (smart contract + frontend) using Zama’s FHE tools (fhEVM, fhevm Hardhat template, and the relayer / fhevmjs SDK). By the end, you’ll be able to: compile an `FHECounter` contract, encrypt inputs in the frontend, call the contract with encrypted inputs, and run everything locally or on Sepolia. This README is written so you can copy-paste it into the terminal in your project folder.
 
 ---
 
