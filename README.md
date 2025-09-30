@@ -309,35 +309,3 @@ This means **plaintext never touches the chain** — computations happen on ciph
 * **WASM loading issues in the browser**: Use the official templates, they already handle WASM bundling. If you build your own, ensure WASM files are served under `public/` and the SDK is pointed to them.
 * **MetaMask + Hardhat nonce mismatch**: If you see nonce errors when restarting Hardhat, clear MetaMask activity tab or restart the extension.
 * **Version mismatches**: If you use older/experimental testnets, you may need specific versions of `fhevm` and `fhevmjs`. Check the community if you hit runtime `unreachable` errors.
-
----
-
-## What to include in your Git repo for a submission
-
-* `hardhat/` folder (contracts, deploy scripts, tests)
-* `frontend/` folder (React app with the FHE client snippets)
-* A `README.md` (this file)
-* A short demo video or screenshots (optional but helpful)
-* (Optional) A link to a deployed frontend on Vercel and the Sepolia contract address
-
----
-
-## Where I got the references (official docs & templates)
-
-This guide follows the official Zama fhEVM templates and docs (Hardhat + React templates) and the `fhevmjs` SDK. If you want to dig deeper, look at the official:
-
-* `fhevm-hardhat-template` (Hardhat starter with FHE integration)
-* `fhevm-react-template` (minimal React frontend to interact with FHE contracts)
-* Zama Protocol docs: FHEVM guides (how to turn a contract into an FHE contract and how encrypted inputs work)
-
----
-
-## Next steps I can do for you (pick any)
-
-* Add a polished `FHECounter` frontend page (React component) ready to drop into `frontend/`.
-* Create `hardhat` deploy scripts & minimal tests and add them to the repo.
-* Add a one-click Vercel + Sepolia deployment guide (with required environment variables and secrets).
-
----
-
-Good luck — paste this README into your repo's `README.md` and tell me if you want the full code files (deploy scripts, the React page, or a ready-to-deploy repo). Happy to generate the exact files next.
